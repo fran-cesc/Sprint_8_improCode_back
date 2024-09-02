@@ -1,22 +1,40 @@
-Sprint_8_back: Barcelona Marathon Node.js + Express + MySql Project
+# Sprint 8 Improcode back: Barcelona Marathon
+
+Restful CRUD API made with Node.js and Express with MySql database for Sprint 8 Improcode: Barcelona Marathon. 
 
 
-## Getting Started:
+## Features:
 
-1. Clone the repository: 
-    
-    https://github.com/fran-cesc/Sprint_8_improCode_back.git
+* CRUD runners from the event with Node.js and Express.
+* Info map with  [Mapbox](https://www.mapbox.com/).
+* Data graph with [Chart.js](https://www.chartjs.org/).
+* [Calendar](https://fullcalendar.io/) with some events.
 
-2. Install node packages: 
-    
+## Installation:
+
+1. Clone repository:
+
+    ```bash
+    git clone https://github.com/fran-cesc/Sprint_8_improCode_back.git
+    ```
+2. Enter the directory:
+
+    ```bash
+    cd Sprint_8_improCode_back
+    ```
+
+3. Install node packages:
+  
+    ```bash
     npm install
+    ```
 
-3. Rename .env.template to .env and add your database settings
+4. Rename .env.template to .env and add your database settings.
 
-4. Clone database and start database server
+5. Import [database](database\Improcode_database.sql) to your database server and start it.
 
-5. Start server with nodemon
+5. Start server with nodemon.
 
-    nodemon index.js
-
-6. Start Sprint_8_front
+        ```bash
+        nodemon index.js
+        ```

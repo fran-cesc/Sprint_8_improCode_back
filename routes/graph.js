@@ -9,7 +9,7 @@ dotenv.config();
 const {connection} = require("../app/config/config.db");
 
 
-// Get all map positions
+// Get total participants
 const getTotals = (request, response) => {
     connection.query("SELECT * FROM total_numbers", 
     (error, results) => {
